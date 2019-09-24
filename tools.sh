@@ -88,7 +88,27 @@ sleep 0.1;
 clear
 echo "starting tOols... /";
 sleep 0.1;
-clear                                                            
+clear  
+<?php
+$hem="[?]";
+  for($time=10;$time>-1;$time--){
+echo "\r                             \r";
+echo "\r".$hem." tunggu "$time." detik ";
+     if($time==10 or$time==6 or$time==3){
+echo$ijo."•";
+    }
+    if($time==9 or$time==5 or$time==2){
+echo$ijo."••";
+   }
+   if($time==8 or$time==4 or$time==1){
+echo$ijo."•••";
+  }
+  if($time==0){
+echo$ijo."•••••";
+ }
+sleep(1);
+}
+?>
 bi='\033[34;1m' #biru
 i='\033[32;1m' #ijo
 pur='\033[35;1m' #purple

